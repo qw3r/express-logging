@@ -1,0 +1,31 @@
+{
+  "name": "express-logging",
+  "version": "0.0.1",
+  "description": "Simple Logger Wrapper with Error/Request logging Middlewares",
+  "main": "lib/logging.js",
+  "scripts": {
+    "test": "node_modules/.bin/gulp spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qw3r/express-logging"
+  },
+  "keywords": [
+    "express",
+    "logging"
+  ],
+  "author": "Istvan Demeter <demeter.istvan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qw3r/express-logging/issues"
+  },
+  "homepage": "https://github.com/qw3r/express-logging",
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "gulp": "^3.8.7",
+    "gulp-coffee": "^2.2.0",
+    "gulp-jasmine": "^1.0.0",
+    "gulp-sourcemaps": "^1.1.4",
+    "gulp-util": "^3.0.1"
+  }
+}

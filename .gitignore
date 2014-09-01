@@ -1,0 +1,10 @@
+.idea
+node_modules
+
+logs
+*.log
+
+pids
+*.pid
+*.seed
+
